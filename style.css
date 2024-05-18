@@ -14,10 +14,76 @@
   color: white;
 }
 
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.header p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-weight: 400;
+}
+
+.image {
+  background-color: rgb(170, 170, 170);
+  width: 300px;
+  height: 150px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 800;
+}
+
+button {
+  background-color: #3882f6;
+  color: #ffffff;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+
 .info {
   background-color: #ffffff;
 }
 
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  border: 3px solid rgb(0, 110, 255);
+  border-radius: 10px;
+}
+
 .quote {
   background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
 }
