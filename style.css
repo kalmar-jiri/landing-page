@@ -9,15 +9,36 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.header {
-  background-color: #1f2937;
-  color: white;
-}
-
 h1 {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+button {
+  background-color: #3882f6;
+  color: #ffffff;
+  padding: 6px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #6ca5ff;
+}
+
+/* HEADER */
+.header {
+  background-color: #1f2937;
+  color: white;
 }
 
 .header p {
@@ -31,10 +52,38 @@ h1 {
   font-weight: 400;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem 0rem 4rem;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* HERO SECTION */
+.hero-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem;
+}
+
+.hero-left {
+  max-width: 500px;
+}
+
+.hero-left button {
+  margin-top: 1.5rem;
+}
+
 .image {
   background-color: rgb(170, 170, 170);
-  width: 300px;
-  height: 150px;
+  width: 500px;
+  height: 200px;
+  text-align: center;
 }
 
 .logo {
@@ -43,32 +92,47 @@ h1 {
   font-weight: 800;
 }
 
-button {
-  background-color: #3882f6;
-  color: #ffffff;
-  padding: 8px 15px;
-  border-radius: 10px;
-}
-
+/* INFO SECTION */
 .info {
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
 }
 
-h2 {
-  font-size: 36px;
-  font-weight: 800;
-  color: #1f2937;
+.cards {
+  display: flex;
+  gap: 5rem;
+  padding: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.info-item {
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
 }
 
 .card {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border: 3px solid rgb(0, 110, 255);
   border-radius: 10px;
 }
 
+/* QUOTE SECTION */
 .quote {
   background-color: #e5e7eb;
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .quote-text {
@@ -76,14 +140,40 @@ h2 {
   font-weight: 300;
   font-style: italic;
   color: #1f2937;
+  max-width: 800px;
 }
 
 .author {
   font-size: 22px;
   font-weight: 600;
+  margin-left: 35rem;
 }
 
+/* CALL TO ACTION */
+.action-call {
+  padding: 5rem;
+  color: #f9faf8;
+}
+
+.container {
+  background-color: #3882f6;
+  padding: 4rem;
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.action-call button {
+  border: 2px solid #f9faf8;
+}
+
+/* FOOTER */
 .footer {
   background-color: #1f2937;
-  color: white;
+  color: #e5e7eb;
+  font-weight: 300;
+  padding: 1rem;
+  text-align: center;
 }
